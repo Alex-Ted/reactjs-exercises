@@ -14,7 +14,7 @@ function AddToCartButton({ product, handleQuantityChange, addToCart }) {
         onChange={(e) => handleQuantityChange(product.id, e.target.value)}
         style={{ width: 40, marginRight: 5 }}
       />
-      <button onClick={() => addToCart(product)}>Add to Cart</button>
+      <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 mt-4 rounded" onClick={() => addToCart(product)}>Add to Cart</button>
     </div>
   );
 }
