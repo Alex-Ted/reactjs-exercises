@@ -1,0 +1,4 @@
+install tailwindcss
+
+npm install -D tailwindcss
+then follow the steps: https://tailwindcss.com/docs/guides/create-react-app
