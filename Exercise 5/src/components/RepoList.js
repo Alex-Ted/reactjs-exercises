@@ -25,7 +25,7 @@ const RepoList = () => {
             
             <div>
               <p>{repo.created_at} <span style={{marginLeft:20, fontWeight:'normal'}}>{repo.topics[0]}</span></p>
-              <h2>{repo.name}</h2>
+              <h2 className="font-bold">{repo.name}</h2>
               <p>{repo.description}</p>
               <div className="inline-by-line" style={{display:'flex', padding:2}}>
                 <img src={repo.owner.avatar_url} alt="Repo Owner" className="avatar" />
